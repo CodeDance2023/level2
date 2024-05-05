@@ -1,6 +1,6 @@
 package MySocket;
  // 多线程实现类
-import Command.CallMethod;
+import CallCommand.CallMethod;
 
 import java.util.Scanner;
 
@@ -20,7 +20,6 @@ public class MyThread extends Thread{
             String userInput = input.nextLine(); // 读取整行输入
             com = userInput.split(" "); // 使用空格分割输入的字符串
             CallMethod.callCom(com);   //传入指令，调用callCom方法
-
         }
     }
 
