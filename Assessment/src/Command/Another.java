@@ -2,7 +2,7 @@ package Command;
 //其他指令的实现类
 public class Another {
 
-    //help
+    //help    --------- 展示出指令的用法
     public static void help(String[] com){
         if (com.length == 1){    //防止输入help时，数组的长度为1，导致下面的help set...等指令越界
             System.out.println("SET [KEY] [VAULE]");
@@ -66,7 +66,7 @@ public class Another {
         }
     }
 
-    //ping
+    //ping    //返回pong
     public static void ping(String[] com){
         System.out.println("pong");
     }

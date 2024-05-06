@@ -6,7 +6,7 @@ public class HashMap_map {
     public static HashMap<String, HashMap<String,String>> hsh = new HashMap<>(); //创建HashMap对象hsh
     public static HashMap<String,String> hs1 = new HashMap<>();  //创建HashMap对象hs1,防止重复进行干扰
 
-    //hset
+    //hset     -------- 把一个键值对放进一个HashMap集合内，并且把一个指定的键和这个集合放进当前外层的HashMap里面去
     public static void hset(String[] com){
         hs1.put(com[2],com[3]);   //把指令的键内容放进hs1集合(是一个HashMap集合)里面
         hsh.put(com[1],hs1);  //把键值对放进hsh集合里面
@@ -18,14 +18,14 @@ public class HashMap_map {
         }
     }
 
-    //hget
+    //hget        ----------- 获取一个键所对应的HashMap集合，并展示这个集合的所有值
     public static void hget(String[] com){
         HashMap<String, String> mapVaule = hsh.get(com[1]);//获得集合中的键对用的值 -- 是一个HashMap集合
         String vaule = mapVaule.get(com[2]);  //获这个集合脸面的这个键所对应的值
         System.out.println(vaule);
     }
 
-    //hdel
+    //hdel        -------------  删除某个键所对应的集合里面的所有值或者是这个集合里面的某个值
     public static void hdel(String[] com){
         if (com.length == 2) {  //如果指令的长度等于2，作用是把这个键对用的键值对全部删除
             HashMap<String, String> mapVaule = hsh.get(com[1]);  //获得键所对应的值 -- mapVaule
