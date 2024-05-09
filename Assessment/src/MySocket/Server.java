@@ -17,7 +17,7 @@ public class Server {
         //将端口号写入propeties文件
         Properties prop = new Properties();   //创建Properties对象监听端口号
         prop.put("127.0.0.1",String.valueOf(port));  //将整形变成字符串的表示形式
-        FileOutputStream fos = new FileOutputStream("Assessment\\port.properties");
+        FileOutputStream fos = new FileOutputStream("Assessment\\port.properties",true); //打开续写
         prop.store(fos,"monitor");
         fos.close();
 

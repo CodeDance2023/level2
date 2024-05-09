@@ -19,6 +19,8 @@ public class Another {
             System.out.println("HGET [KEY] [FIELD]");
             System.out.println("HDEL [KEY] [FILED]");
             System.out.println("HDEL [KEY]");
+            System.out.println("PING");
+            System.out.println("EXIT");
         }
         else if (com[1].equals("set")){
             System.out.println("SET [KEY] [VALUE]");
