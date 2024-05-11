@@ -1,6 +1,7 @@
 package MySocket;
  // 多线程实现类
 import CallCommand.CallMethod;
+import Log.JUL;
 
 import java.io.*;
 import java.util.Scanner;
@@ -19,11 +20,13 @@ public class MyThread extends Thread{
         BufferedWriter bw;
         try {
             //创建字符缓冲输入流对象
-            br = new BufferedReader(new FileReader("Assessment/command.txt"));
+            br = new BufferedReader(new FileReader("Assessment/src/ResourceFiles/command.txt"));
             //创建字符缓冲输出流对象并开启续写（append = true）
-            bw = new BufferedWriter(new FileWriter("Assessment/command.txt",true));
+            bw = new BufferedWriter(new FileWriter("Assessment/src/ResourceFiles/command.txt",true));
         }
         catch (IOException e) {
+            String error = e.toString();
+            JUL.logger.severe(error);   //将错误信息写进日志
             throw new RuntimeException(e);
         }
         com = new String[10];    //为com数组开辟空间   ------用来储存用空格分割后的字符串数组
@@ -31,6 +34,7 @@ public class MyThread extends Thread{
         String command;  //辅助字符流读取的字符串
         System.out.println("上次储存的指令的运行结果如下:");
         int flag = 0;  //判断上次是否又指令被执行的标志
+
         //读取上次输入的指令并执行
             try {
                 while ((command = br.readLine()) != null)  //读入上次储存的所有指令，一行一行读取，直到读取完为止
@@ -41,6 +45,8 @@ public class MyThread extends Thread{
                 }
             }
             catch (IOException e) {
+                String error = e.toString();
+                JUL.logger.severe(error);   //将错误信息写进日志
                 throw new RuntimeException(e);
             }
 
@@ -60,6 +66,8 @@ public class MyThread extends Thread{
                 bw.flush();  //将缓冲区的数据立即刷入文件
             }
             catch (IOException e) {
+                String error = e.toString();
+                JUL.logger.severe(error);   //将错误信息写进日志
                 throw new RuntimeException(e);
             }
             com = userInput.split(" "); // 使用空格分割输入的字符串
@@ -71,6 +79,8 @@ public class MyThread extends Thread{
                     br.close();
                 }
                 catch (IOException e) {
+                    String error = e.toString();
+                    JUL.logger.severe(error);   //将错误信息写进日志
                     throw new RuntimeException(e);
                 }
                 break;
