@@ -110,3 +110,507 @@
   </exception>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-11T17:00:11.465324400Z</date>
+  <millis>1715446811465</millis>
+  <nanos>324400</nanos>
+  <sequence>0</sequence>
+  <logger>Log</logger>
+  <level>INFO</level>
+  <class>MySocket.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>host: 127.0.0.1</message>
+</record>
+<record>
+  <date>2024-05-11T17:01:22.967659400Z</date>
+  <millis>1715446882967</millis>
+  <nanos>659400</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Runtime</logger>
+  <level>FINE</level>
+  <class>java.lang.Shutdown</class>
+  <method>logRuntimeExit</method>
+  <thread>23</thread>
+  <message>Runtime.exit() called with status: 130</message>
+  <exception>
+    <message>java.lang.Throwable: Runtime.exit(130)</message>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>logRuntimeExit</method>
+      <line>179</line>
+    </frame>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>exit</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>java.lang.Terminator$1</class>
+      <method>handle</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.misc.Signal$1</class>
+      <method>run</method>
+      <line>218</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>1583</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-11T17:01:39.073047500Z</date>
+  <millis>1715446899073</millis>
+  <nanos>47500</nanos>
+  <sequence>0</sequence>
+  <logger>Log</logger>
+  <level>INFO</level>
+  <class>MySocket.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>host: 127.0.0.1</message>
+</record>
+<record>
+  <date>2024-05-11T17:03:13.663451500Z</date>
+  <millis>1715446993663</millis>
+  <nanos>451500</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Runtime</logger>
+  <level>FINE</level>
+  <class>java.lang.Shutdown</class>
+  <method>logRuntimeExit</method>
+  <thread>23</thread>
+  <message>Runtime.exit() called with status: 130</message>
+  <exception>
+    <message>java.lang.Throwable: Runtime.exit(130)</message>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>logRuntimeExit</method>
+      <line>179</line>
+    </frame>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>exit</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>java.lang.Terminator$1</class>
+      <method>handle</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.misc.Signal$1</class>
+      <method>run</method>
+      <line>218</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>1583</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-11T17:03:21.207816500Z</date>
+  <millis>1715447001207</millis>
+  <nanos>816500</nanos>
+  <sequence>0</sequence>
+  <logger>Log</logger>
+  <level>INFO</level>
+  <class>MySocket.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>host: 127.0.0.1</message>
+</record>
+<record>
+  <date>2024-05-11T17:03:43.582353300Z</date>
+  <millis>1715447023582</millis>
+  <nanos>353300</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Runtime</logger>
+  <level>FINE</level>
+  <class>java.lang.Shutdown</class>
+  <method>logRuntimeExit</method>
+  <thread>23</thread>
+  <message>Runtime.exit() called with status: 130</message>
+  <exception>
+    <message>java.lang.Throwable: Runtime.exit(130)</message>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>logRuntimeExit</method>
+      <line>179</line>
+    </frame>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>exit</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>java.lang.Terminator$1</class>
+      <method>handle</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.misc.Signal$1</class>
+      <method>run</method>
+      <line>218</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>1583</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-11T17:03:50.755656400Z</date>
+  <millis>1715447030755</millis>
+  <nanos>656400</nanos>
+  <sequence>0</sequence>
+  <logger>Log</logger>
+  <level>INFO</level>
+  <class>MySocket.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>host: 127.0.0.1</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:03.759443Z</date>
+  <millis>1715447103759</millis>
+  <nanos>443000</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Runtime</logger>
+  <level>FINE</level>
+  <class>java.lang.Shutdown</class>
+  <method>logRuntimeExit</method>
+  <thread>23</thread>
+  <message>Runtime.exit() called with status: 130</message>
+  <exception>
+    <message>java.lang.Throwable: Runtime.exit(130)</message>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>logRuntimeExit</method>
+      <line>179</line>
+    </frame>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>exit</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>java.lang.Terminator$1</class>
+      <method>handle</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.misc.Signal$1</class>
+      <method>run</method>
+      <line>218</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>1583</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-12T02:39:49.180496700Z</date>
+  <millis>1715481589180</millis>
+  <nanos>496700</nanos>
+  <sequence>0</sequence>
+  <logger>Log</logger>
+  <level>INFO</level>
+  <class>MySocket.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>host: 127.0.0.1</message>
+</record>
+<record>
+  <date>2024-05-12T02:40:59.201769500Z</date>
+  <millis>1715481659201</millis>
+  <nanos>769500</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Runtime</logger>
+  <level>FINE</level>
+  <class>java.lang.Shutdown</class>
+  <method>logRuntimeExit</method>
+  <thread>23</thread>
+  <message>Runtime.exit() called with status: 130</message>
+  <exception>
+    <message>java.lang.Throwable: Runtime.exit(130)</message>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>logRuntimeExit</method>
+      <line>179</line>
+    </frame>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>exit</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>java.lang.Terminator$1</class>
+      <method>handle</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.misc.Signal$1</class>
+      <method>run</method>
+      <line>218</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>1583</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-12T02:41:11.277077300Z</date>
+  <millis>1715481671277</millis>
+  <nanos>77300</nanos>
+  <sequence>0</sequence>
+  <logger>Log</logger>
+  <level>INFO</level>
+  <class>MySocket.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>host: 127.0.0.1</message>
+</record>
+<record>
+  <date>2024-05-12T02:42:14.578338300Z</date>
+  <millis>1715481734578</millis>
+  <nanos>338300</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Runtime</logger>
+  <level>FINE</level>
+  <class>java.lang.Shutdown</class>
+  <method>logRuntimeExit</method>
+  <thread>23</thread>
+  <message>Runtime.exit() called with status: 130</message>
+  <exception>
+    <message>java.lang.Throwable: Runtime.exit(130)</message>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>logRuntimeExit</method>
+      <line>179</line>
+    </frame>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>exit</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>java.lang.Terminator$1</class>
+      <method>handle</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.misc.Signal$1</class>
+      <method>run</method>
+      <line>218</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>1583</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-12T02:42:25.741528900Z</date>
+  <millis>1715481745741</millis>
+  <nanos>528900</nanos>
+  <sequence>0</sequence>
+  <logger>Log</logger>
+  <level>INFO</level>
+  <class>MySocket.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>host: 127.0.0.1</message>
+</record>
+<record>
+  <date>2024-05-12T02:43:13.804288300Z</date>
+  <millis>1715481793804</millis>
+  <nanos>288300</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Runtime</logger>
+  <level>FINE</level>
+  <class>java.lang.Shutdown</class>
+  <method>logRuntimeExit</method>
+  <thread>23</thread>
+  <message>Runtime.exit() called with status: 130</message>
+  <exception>
+    <message>java.lang.Throwable: Runtime.exit(130)</message>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>logRuntimeExit</method>
+      <line>179</line>
+    </frame>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>exit</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>java.lang.Terminator$1</class>
+      <method>handle</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.misc.Signal$1</class>
+      <method>run</method>
+      <line>218</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>1583</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-12T02:43:52.045671300Z</date>
+  <millis>1715481832045</millis>
+  <nanos>671300</nanos>
+  <sequence>0</sequence>
+  <logger>Log</logger>
+  <level>INFO</level>
+  <class>MySocket.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>host: 127.0.0.1</message>
+</record>
+<record>
+  <date>2024-05-12T02:45:04.286915100Z</date>
+  <millis>1715481904286</millis>
+  <nanos>915100</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Runtime</logger>
+  <level>FINE</level>
+  <class>java.lang.Shutdown</class>
+  <method>logRuntimeExit</method>
+  <thread>23</thread>
+  <message>Runtime.exit() called with status: 130</message>
+  <exception>
+    <message>java.lang.Throwable: Runtime.exit(130)</message>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>logRuntimeExit</method>
+      <line>179</line>
+    </frame>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>exit</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>java.lang.Terminator$1</class>
+      <method>handle</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.misc.Signal$1</class>
+      <method>run</method>
+      <line>218</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>1583</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-12T02:54:40.853100300Z</date>
+  <millis>1715482480853</millis>
+  <nanos>100300</nanos>
+  <sequence>0</sequence>
+  <logger>Log</logger>
+  <level>INFO</level>
+  <class>MySocket.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>host: 127.0.0.1</message>
+</record>
+<record>
+  <date>2024-05-12T02:56:10.767334Z</date>
+  <millis>1715482570767</millis>
+  <nanos>334000</nanos>
+  <sequence>1</sequence>
+  <logger>java.lang.Runtime</logger>
+  <level>FINE</level>
+  <class>java.lang.Shutdown</class>
+  <method>logRuntimeExit</method>
+  <thread>23</thread>
+  <message>Runtime.exit() called with status: 130</message>
+  <exception>
+    <message>java.lang.Throwable: Runtime.exit(130)</message>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>logRuntimeExit</method>
+      <line>179</line>
+    </frame>
+    <frame>
+      <class>java.lang.Shutdown</class>
+      <method>exit</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>java.lang.Terminator$1</class>
+      <method>handle</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.misc.Signal$1</class>
+      <method>run</method>
+      <line>218</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>1583</line>
+    </frame>
+  </exception>
+</record>
+</log>

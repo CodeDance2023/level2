@@ -28,11 +28,13 @@ public class Server {
 
 
             //加载日志配置文件
+
             //通过类加载器读取配置文件
             InputStream is = JUL.class.getClassLoader().getResourceAsStream("ResourceFiles/logging.properties");
 
             //创建LogManager对象
             LogManager logManager = LogManager.getLogManager();
+
             //通过LogManager加载配置文件
             logManager.readConfiguration(is);
             JUL.logger.info("host: 127.0.0.1");  //把主机IP地址写进日志

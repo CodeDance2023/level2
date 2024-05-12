@@ -3,10 +3,8 @@
         import Log.JUL;
 
         import java.io.IOException;
-        import java.io.InputStream;
         import java.net.Socket;
         import java.util.Scanner;
-        import java.util.logging.LogManager;
 
         public class Client {
                 public static int port;   //端口号

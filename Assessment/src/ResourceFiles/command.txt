@@ -1,1 +1,7 @@
-//指令持续化储存文件
+set name li
+get name li
+set name lee
+get name
+help
+help get
+help exit

@@ -13,8 +13,9 @@ public class MyThread extends Thread{
         this.port = port; //因为客户/服务端/进程类运行在三个不用的进程，port无法被共享，通过构造方法传进来
      }
 
+    //重写run方法
     @Override
-    public void run() {  //重写run方法
+    public void run() {
         Scanner input = new Scanner(System.in);
         BufferedReader br;
         BufferedWriter bw;
@@ -43,15 +44,14 @@ public class MyThread extends Thread{
                     fcom = command.split(" ");  //将字符串指令用空格分割为字符串数组
                     CallMethod.callCom(fcom);  //调用每一条指令对应的方法
                 }
+                if (flag == 0){
+                    System.out.println("null");   //如果上次没有指令被执行则输出null
+                }
             }
             catch (IOException e) {
                 String error = e.toString();
                 JUL.logger.severe(error);   //将错误信息写进日志
                 throw new RuntimeException(e);
-            }
-
-            if (flag == 0){
-                System.out.println("null");   //如果上次没有指令被执行则输出null
             }
 
             //新输入指令
