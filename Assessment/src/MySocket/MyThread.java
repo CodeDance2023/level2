@@ -58,8 +58,15 @@ public class MyThread extends Thread{
         while (true) {
             System.out.print("127.0.0.1:" + port + ">");  //用户输入新的指令......
             String userInput = input.nextLine(); // 读取整行输入的指令字符串
+
+            com = userInput.split(" "); // 使用空格分割输入的字符串
+            CallMethod.callCom(com);   //传入指令，调用callCom方法
             try {
-                if (!userInput.equals("exit")){  //不是exit指令才写入文件
+                //存储所有的set和get指令
+                if ( com[0].equals("set") || com[0].equals("del") || com[0].equals("lpush") || com[0].equals("rpush")
+                    || com[0].equals("lpop") || com[0].equals("rpop") || com[0].equals("ldel") || com[0].equals("hset")
+                    || (com[0].equals("hdel") && com.length == 1) || com[0].equals("hdel") )
+                {
                     bw.write(userInput);   //将输入的指令存到command.txt文件里面去
                 }
                 bw.newLine();   //写入一个回车，防止数据写在同一行
@@ -70,8 +77,6 @@ public class MyThread extends Thread{
                 JUL.logger.severe(error);   //将错误信息写进日志
                 throw new RuntimeException(e);
             }
-            com = userInput.split(" "); // 使用空格分割输入的字符串
-            CallMethod.callCom(com);   //传入指令，调用callCom方法
             if (com[0].equals("exit")){   //指令是exit就退出循环
                 try {
                     //关闭输入流和输出流

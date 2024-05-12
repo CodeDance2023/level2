@@ -5,3 +5,18 @@ get name
 help
 help get
 help exit
+set name li
+
+hset name 1 2
+hdel name 1
+del name
+
+
+lpush name lihao
+lpop name
+lpush name liang
+lpop name
+
+lpush name liang
+lpush name liang
+

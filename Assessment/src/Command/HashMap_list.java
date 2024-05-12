@@ -45,7 +45,12 @@ public class HashMap_list {
     //len        ---------- 获取某个键对应的集合的元素个数
     public static void len(String[] com){
         LinkedList<String> listVaule = hsl.get(com[1]);  //获取键对应的list -- listVaule
-        System.out.println(listVaule.size());  //调用size()方法获得list的长度
+        if (listVaule.isEmpty()){
+            System.out.println(0);    //如果为0，则输出0
+        }
+        else{
+            System.out.println(listVaule.size());  //调用size()方法获得list的长度
+        }
     }
 
     //lpop          -------  获取某个键所对应的集合，并将这个集合最左边的元素删除
